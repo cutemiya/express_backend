@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "cutemiya",
+  "dependencies": {
+    "express": "^4.18.2",
+    "yarn": "^1.22.19"
+  },
+  "license": "ISC",
+  "description": ""
+}
