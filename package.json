@@ -9,6 +9,8 @@
   "author": "cutemiya",
   "dependencies": {
     "express": "^4.18.2",
+    "sqlite": "^4.2.1",
+    "sqlite3": "^5.1.6",
     "yarn": "^1.22.19"
   },
   "license": "ISC",

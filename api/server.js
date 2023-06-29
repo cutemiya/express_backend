@@ -1,10 +1,10 @@
 import express from "express";
-import some from "./controller/some.js"
+import todo from "./controller/todo.js"
 
 function newServer(port) {
 
     const app = express()
-    app.use('/some', some)
+    app.use('/some', todo)
 
     const run = () => {
         app.listen(port, '0.0.0.0', () => {

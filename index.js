@@ -1,6 +1,4 @@
-import {PORT} from "./config.js";
-import newServer from './api/server.js'
+import {newApp} from "./app.js";
 
-const server = newServer(PORT);
-
-server.run()
+const app = await newApp();
+app.runServer();
